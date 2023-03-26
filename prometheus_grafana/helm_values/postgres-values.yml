@@ -1,0 +1,10 @@
+---
+auth:
+  postgresPassword: test
+  database: test
+metrics:
+  enabled: true
+  serviceMonitor:
+    enabled: false
+    selector:
+      prometheus: devops
