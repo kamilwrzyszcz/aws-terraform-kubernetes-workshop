@@ -5,7 +5,6 @@ metadata:
   name: example-app
   namespace: default
 spec:
-  replicas: 1
   selector:
     matchLabels:
       app: example-app
